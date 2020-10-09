@@ -12,15 +12,8 @@ void myinit(GLFWwindow** window)
     glClearColor(0, 0, 0, 1); // 背景色の設定
 }
 
-//--再描画---------------------------------------------------------------------
-//void GLFWCALL reshape( int w, int h )
-//{
-//    glViewport( 0, 0, (GLsizei)w, (GLsizei)h );//ƒEƒBƒ“ƒhƒE‘S‘Ì‚ðƒrƒ…[ƒ|[ƒg‚É‚·‚é
-//    glMatrixMode( GL_PROJECTION );
-//    glLoadIdentity();
-//    glOrtho(-1.0f, 1.0f, -1.0f, 1.0f, -1.0f, 1.0f);    //Ž‹–ì‚ÌŽw’è
-//}
 
+//--再描画--------------------------------------------------------------------
 void reshape(GLFWwindow* window, int w, int h)
 {
     glViewport( 0, 0, (GLsizei)w, (GLsizei)h );　//ウィンドウ全体をビューポートにする
