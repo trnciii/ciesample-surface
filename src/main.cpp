@@ -12,6 +12,23 @@ void myinit(GLFWwindow** window)
     glClearColor(0, 0, 0, 1); // 背景色の設定
 }
 
+//--再描画---------------------------------------------------------------------
+//void GLFWCALL reshape( int w, int h )
+//{
+//    glViewport( 0, 0, (GLsizei)w, (GLsizei)h );//ƒEƒBƒ“ƒhƒE‘S‘Ì‚ðƒrƒ…[ƒ|[ƒg‚É‚·‚é
+//    glMatrixMode( GL_PROJECTION );
+//    glLoadIdentity();
+//    glOrtho(-1.0f, 1.0f, -1.0f, 1.0f, -1.0f, 1.0f);    //Ž‹–ì‚ÌŽw’è
+//}
+
+void reshape(GLFWwindow* window, int w, int h)
+{
+    glViewport( 0, 0, (GLsizei)w, (GLsizei)h );　//ウィンドウ全体をビューポートにする
+    glMatrixMode( GL_PROJECTION );
+    glLoadIdentity();
+    glOrtho(-1.0f, 1.0f, -1.0f, 1.0f, -1.0f, 1.0f);　//視野の指定
+}
+
 //--描画内容--------------------------------------------------------------------
 void display(void)
 {
@@ -36,8 +53,12 @@ int main(void)
     GLFWwindow* window; // ウィンドウの変数をつくる
     myinit(&window); // ウィンドウのポインタを渡して初期化
     
+    
+    //コールバック関数 (キーボードやマウスの動きを捕まえる)
+    glfwSetWindowSizeCallback(window, reshape);
+    
+    
     //イベント処理ループ
-    //--------------------------------------------------------
     do{
         display();
         glfwSwapBuffers(window);
