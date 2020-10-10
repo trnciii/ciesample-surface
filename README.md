@@ -5,9 +5,7 @@
 * [ディスプレイリスト-(Winと異なります)](#ディスプレイリスト-コードが異なります)<br>
 * [移動・回転・拡大縮小（Winと共通）](#移動-回転-拡大縮小)<br>
 * [行列のコントロール（Winと共通）](#行列のコントロール)<br>
-* [課題その2](#課題その2)
-* [課題その3](#課題その3)
-* [課題その4](#課題その4)
+* [課題その2~4](#課題その2-4)
 
 
 ## 準備
@@ -79,19 +77,7 @@ void reshape(GLFWwindow* window, int w, int h)
 
 
 ## 課題その1
-
-あなたのイニシャルを、画面上に描いてください。"MP1”だとイメージとしては下のようなものになります。
-
-![](http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/MP1.gif)
-
-注意事項：
-Mのように、へこみ部分のあるポリゴン（凹ポリゴンといいます）や、Pのように、穴のあいたポリゴンは、OpenGLでは綺麗に表示できません。分解して描く・GL_LINE_LOOPなどを使ってラインだけで描くなど工夫してください。
-
-ヒント１：
-最終的なイメージを方眼紙のようなものに描いて、図形の座表を紙面上で位置を計算しておくとスムーズに表現できます。
-
-ヒント２：
-図形も様々なタイプがあるので、ためしに色々な図形のタイプを使って文字を表現してみましょう。
+Windowsと共通です。もとの資料を参考にプログラムを作ってください
 
 ## ディスプレイリスト-コードが異なります
 ディスプレイリストを使うと、図形を描く、などの命令を保存し、それを簡単に呼び出したりすることができます。つまり、一度定義した物体を「使い回す」事ができます。
@@ -159,17 +145,5 @@ Windowsと共通です。もとの資料を参考にしてください。
 ## 行列のコントロール
 Windowsと共通です。もとの資料を参考にしてください。
 
-## 課題その2
-次のような画面を作ってみて下さい。<br>
-![](http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/1_2_var0.gif)
-
-## 課題その3
-「課題その２」を変更して、次のような画面を作ってみて下さい。<br>
-<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/ogl1_4.gif" width="300">
-<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/square2.gif" width="300"><br>
-<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/1_2_var1.gif" width="300">
-<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/1_2_var2.gif" width="300">
-
-
-## 課題その4
-上記のことを参考にして、自分で面白そうな課題を作って、実現してみてください。 何を作ってもOKです。
+## 課題その2-4
+Windowsと共通です。もとの資料を参考にプログラムを作ってください
