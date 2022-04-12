@@ -174,7 +174,7 @@ glCallList(SQUARE); // 定義されているオブジェクトを呼び出し
 ## 課題2
 次のような画面を作ってみて下さい。
 
-![](http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/1_2_var0.gif)
+![](http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/surface/1_2_var0.gif)
 
 ## 行列の初期化
 このようにどんどん変換が積み重なっていく仕組みでは、一度書いた変換がそのあと全ての変換に影響するので直感的に操作しにくい場合があります。これを解消するため、必要に応じて行列を初期化することができます。
@@ -184,6 +184,6 @@ glCallList(SQUARE); // 定義されているオブジェクトを呼び出し
 ## 課題3
 次のような画面を作ってみて下さい。
 
-<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/ogl1_4.gif" width="300"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/square2.gif" width="300"><br>
+<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/surface/ogl1_4.gif" width="300"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/surface/square2.gif" width="300"><br>
 
-<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/1_2_var1.gif" width="300"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cge2020/img/surface/1_2_var2.gif" width="300">
+<img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/surface/1_2_var1.gif" width="300"> <img src="http://www.design.kyushu-u.ac.jp/~rtsuruno/lectures/cie2022/img/surface/1_2_var2.gif" width="300">
